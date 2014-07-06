@@ -11,7 +11,10 @@
 |
 */
 
+Route::get('user', 'UserController@index');
+
 Route::get('/', function()
 {
 	return View::make('hello');
 });
+
